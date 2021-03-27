@@ -1,0 +1,64 @@
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+
+    .container {
+        width: 90rem;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .text-area {
+        display: flex;
+        align-items: center;
+    }
+
+    .flower {
+        height: 2.6rem;
+        margin-left: .6rem;
+    }
+
+    .palette-area {
+        
+        width: 60rem;
+        height: 30rem;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin-bottom: 2rem;
+        margin-top: 1.6rem;
+
+        .color-one {
+            background-color: #f5eeeb;
+        }
+
+        .color-two {
+            background-color: #c0d8e3;
+        }
+
+        .color-three {
+            background-color: #a78d8a;
+        }
+
+        .color-four {
+            background-color: #e18a7a;
+        }
+
+        .color-five {
+            background-color: #eeb9a2;
+        }
+
+        .quote-text {
+            font-size: 4rem;
+        }
+
+    }
+
+}
+
+
