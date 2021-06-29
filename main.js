@@ -200,4 +200,3 @@ paletteReset.addEventListener("click", function(){
     location.reload();
 })
 
-console.log(quotes);
